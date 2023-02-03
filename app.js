@@ -34,6 +34,7 @@ const asyncCall = async () => {
         }
         
         console.log(choicesArr)
+        // creating li element for each choice
         for (choice of choicesArr) {
             const answerChoice = document.createElement('li')
             answerChoice.innerText = choice
